@@ -58,7 +58,7 @@ header {
             rgba(60, 15, 25, 0.25),
             rgba(60, 15, 25, 0.25)
         ),
-        url("../_images/images1.png");
+        url("_images/images1.png");
 
     background-size: cover;
     background-position: center;
