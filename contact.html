@@ -14,10 +14,26 @@
 
     <meta name="author" content="Her Quince">
 
-<link rel="stylesheet" href="myFirstStyle.css"></head>
+        <title>Her Quince</title>
+
+
+<link rel="stylesheet" href="../css_assets/myFirstStyle.css"></head>
 <body>
+
+    <script src="../js_assets/main.js" defer></script>
+    
+    <h2>Find us</h2>
+
+<p>Use the map below to view our location.</p>
+
+<iframe
+    class="map-frame"
+    title="Her Quince location"
+    loading="lazy"
+    src="https://www.google.com/maps?q=Lady+Selborne,+Pretoria,+South+Africa&output=embed">
+</iframe>
      <header>
-        <img src="estd 200.png" alt=" Her Quince logo">
+        <img src="_images/estd 200.png" alt=" Her Quince logo">
 
         <nav>
 
@@ -57,7 +73,7 @@
              At Thiko Technologyies</a><br>
              South Africa
             </address>
-            <img src="images (6).png" alt=" her quince"><br>
+            <img src="_images/images (6).png" alt=" her quince"><br>
 
         </p>
 
@@ -67,7 +83,7 @@
             <div style="font-family: 'Prata', sans-serif;">
                 <h2>Her Quince
                 </h2>
-                <img src="images (3) (1).jpg" alt=" Her Quince">
+                <img src="_images/images (3) (1).jpg" alt=" Her Quince">
             </div>
         </header>
         <nav>
@@ -86,4 +102,40 @@
     </footer>
     
 </body>
+<section class="form-card">
+
+    <h2>Send us a message</h2>
+
+    <form id="contact-form">
+
+        <label>Full name</label>
+        <input type="text" name="name" required>
+
+        <label>Email address</label>
+        <input type="email" name="email" required>
+
+        <label>Phone number</label>
+        <input type="tel" name="phone" required>
+
+        <label>Message type</label>
+
+        <select name="type" required>
+            <option value="">Choose a message type</option>
+            <option>General question</option>
+            <option>Order support</option>
+            <option>Delivery</option>
+            <option>Returns and refunds</option>
+            <option>Feedback</option>
+        </select>
+
+        <label>Your message</label>
+        <textarea name="message" rows="5" required></textarea>
+
+        <button type="submit">Prepare email</button>
+
+        <p id="contact-status"></p>
+
+    </form>
+
+</section>
 </html>

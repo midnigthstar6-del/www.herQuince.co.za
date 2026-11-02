@@ -14,10 +14,16 @@
 
     <meta name="author" content="Her Quince">
 
-<link rel="stylesheet" href="myFirstStyle.css"></head>
+        <title>Her Quince</title>
+
+
+<link rel="stylesheet" href="../css_assets/myFirstStyle.css"></head>
 <body>
+
+    <script src="../js_assets/main.js" defer></script>
+    
     <header>
-        <img src="estd 200.png" alt=" Her Quince logo">
+        <img src="_images/estd 200.png" alt=" Her Quince logo">
 
         <nav>
     <ul style="font-family: 'Prata', sans-serif;">
@@ -132,7 +138,7 @@ Yes! We may have special discounts and promotions throughout the year. Make sure
             <div style="font-family: 'Prata', sans-serif;">
                 <h2>Her Quince
                 </h2>
-                <img src="images (3) (1).jpg" alt=" Her Quince">
+                <img src="_images/images (3) (1).jpg" alt=" Her Quince">
             </div>
         </header>
         <nav>
@@ -150,4 +156,44 @@ Yes! We may have special discounts and promotions throughout the year. Make sure
     </footer>
     
 </body>
+<section class="form-card">
+
+    <h2>Make a product or service enquiry</h2>
+
+    <form id="enquiry-form">
+
+        <label>Full name</label>
+        <input type="text" name="name" required>
+
+        <label>Email address</label>
+        <input type="email" name="email" required>
+
+        <label>Phone number</label>
+        <input type="tel" name="phone" required>
+
+        <label>What are you enquiring about?</label>
+
+        <select name="interest" required>
+            <option value="">Select one</option>
+            <option>Quinceañera dress</option>
+            <option>Crown or tiara</option>
+            <option>Quinceañera event services</option>
+            <option>Volunteer opportunity</option>
+            <option>Sponsorship</option>
+            <option>Other</option>
+        </select>
+
+        <label>Event date</label>
+        <input type="date" name="eventDate">
+
+        <label>Tell us what you need</label>
+        <textarea name="message" rows="5" required></textarea>
+
+        <button type="submit">Send enquiry by email</button>
+
+        <p id="enquiry-status"></p>
+
+    </form>
+
+</section>
 </html>

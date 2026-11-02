@@ -14,10 +14,15 @@
 
     <meta name="author" content="Her Quince">
 
-<link rel="stylesheet" href="myFirstStyle.css"></head>
+        <title>Her Quince</title>
+
+
+<link rel="stylesheet" href="../css_assets/myFirstStyle.css"></head>
 <body>
+    <script src="../js_assets/main.js" defer></script>
+
      <header>
-        <img src="estd 200.png" alt=" Her Quince logo">
+        <img src="_images/estd 200.png" alt=" Her Quince logo">
         <nav>
     <ul style="font-family: 'Prata', sans-serif;">
         <li><a href="index.html">Home</a></li>
@@ -52,7 +57,7 @@
 <div class="row">
     <div class="column">
          <div class="card">
-           <img src="Crown.jpg"alt=" Her Quince logo" width="200">
+           <img src="_images/Crown.jpg"alt=" Her Quince logo" width="200">
            <h1>Balle Crown</h1>
            <p class="price">R399.99</p>
            <p><button>Add to Cart</button></p>
@@ -60,7 +65,7 @@
     </div>
     <div class="column">
         <div class="card" >
-           <img src="Crown 2.jpg"alt=" Her Quince logo" width="200">
+           <img src="_images/Crown 2.jpg"alt=" Her Quince logo" width="200">
            <h1>Butterfly Royale</h1>
            <p class="price">R299.99</p>
            <p><button>Add to Cart</button></p>
@@ -69,7 +74,7 @@
 
     <div class="column">
         <div class="card">
-            <img src="Crown 3.jpg"alt=" Her Quince logo" width="200">
+            <img src="_images/Crown 3.jpg"alt=" Her Quince logo" width="200">
            <h1>Sapphire Queen</h1>
            <p class="price">R249.99</p>
            <p><button>Add to Cart</button></p>
@@ -80,7 +85,7 @@
 <div class="row">
     <div class="column">
          <div class="card">
-           <img src="Crown 4.jpg"alt=" Her Quince logo" width="200">
+           <img src="_images/Crown 4.jpg"alt=" Her Quince logo" width="200">
            <h1>Princess Pearl</h1>
            <p class="price">349.99</p>
            <p><button>Add to Cart</button></p>
@@ -88,7 +93,7 @@
     </div>
     <div class="column">
         <div class="card" >
-           <img src="Crown 5.jpg"alt=" Her Quince logo" width="200">
+           <img src="_images/Crown 5.jpg"alt=" Her Quince logo" width="200">
            <h1>Crystal Princess</h1>
            <p class="price">R499.99</p>
            <p><button>Add to Cart</button></p>
@@ -96,7 +101,7 @@
     </div>
     <div class="column">
         <div class="card">
-            <img src="Crown 6.jpg"alt=" Her Quince logo" width="200">
+            <img src="_images/Crown 6.jpg"alt=" Her Quince logo" width="200">
            <h1>Aurora Crown</h1>
            <p class="price">R149.9</p>
            <p><button>Add to Cart</button></p>
@@ -107,7 +112,7 @@
 <div class="row">
     <div class="column">
          <div class="card">
-           <img src="Crown 7.jpg"alt=" Her Quince logo" width="200">
+           <img src="_images/Crown 7.jpg"alt=" Her Quince logo" width="200">
            <h1>Golden Grace</h1>
            <p class="price">R2999.99</p>
            <p><button>Add to Cart</button></p>
@@ -116,7 +121,7 @@
 
     <div class="column">
         <div class="card" >
-           <img src="Crown 8.jpg"alt=" Her Quince logo" width="200">
+           <img src="_images/Crown 8.jpg"alt=" Her Quince logo" width="200">
            <h1>Midnight Majesty</h1>
            <p class="price">R449.99</p>
            <p><button>Add to Cart</button></p>
@@ -125,7 +130,7 @@
 
     <div class="column">
         <div class="card">
-            <img src="Crown 9.jpg"alt=" Her Quince logo" width="200">
+            <img src="_images/Crown 9.jpg"alt=" Her Quince logo" width="200">
            <h1>Celestial Crown</h1>
            <p class="price">R399.99</p>
            <p><button>Add to Cart</button></p>
@@ -136,7 +141,7 @@
 <div class="row">
     <div class="column">
          <div class="card">
-           <img src="Crown 10.jpg"alt=" Her Quince logo" width="200">
+           <img src="_images/Crown 10.jpg"alt=" Her Quince logo" width="200">
            <h1>Rose Majesty</h1>
            <p class="price">R549.99</p>
            <p><button>Add to Cart</button></p>
@@ -144,7 +149,7 @@
     </div>
     <div class="column">
         <div class="card" >
-           <img src="Crown 11.jpg"alt=" Her Quince logo" width="200">
+           <img src="_images/Crown 11.jpg" alt=" Her Quince logo" width="200">
            <h1>Enchanted Bloom</h1>
            <p class="price">R599.99</p>
            <p><button>Add to Cart</button></p>
@@ -153,7 +158,7 @@
 
     <div class="column">
         <div class="card">
-            <img src="Crown 12.jpg" alt=" Her Quince logo" width="200">
+            <img src="_images/Crown 12.jpg" alt=" Her Quince logo" width="200">
            <h1>Diamond Tiara</h1>
            <p class="price">R399.99</p>
            <p><button>Add to Cart</button></p>
@@ -167,6 +172,21 @@
 
     </main>
 </body>
+<section id="crown-products">
+
+    <label for="product-search">Search products</label>
+
+    <input
+        id="product-search"
+        type="search"
+        placeholder="Search dresses and crowns..."
+    >
+
+    <p id="search-status">
+        Showing all products.
+    </p>
+
+</section>
 <script>
 
 let cartCount = 0;
